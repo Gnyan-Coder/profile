@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(208, 211, 217, 0.9);
+}
+
+.container {
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 378px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  background-color: white;
+}
+.backgroundImage {
+  border: 1px solid white;
+  width: 378px;
+  height: 700px;
+  background-image: url("images/image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 340px;
+  font-family: "Comfortaa";
+  color: black;
+}
+
+/* common attribute for button */
+button {
+  font-family: "Roboto";
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 9px;
+  font-size: 15px;
+  width: 150px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+/* login buttons */
+.loginBtn {
+  background-color: white;
+  color: black;
+  margin-left: 15px;
+}
+/* register buttons */
+.registerBtn {
+  margin-right: 15px;
+  background-color: black;
+  color: white;
+  float: right;
+}
+hr {
+  background-color: black;
+  margin-top: 28px;
+  height: 3px;
+  width: 180px;
+  margin-left: 105px;
+}

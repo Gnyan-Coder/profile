@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(208, 211, 217, 0.9);
+}
+
+.container {
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: white;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.register .fas {
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.register h1 {
+  padding-top: 70px;
+  margin-left: 12px;
+  font-weight: normal;
+  font-family: "Comfortaa";
+}
+/* common attribute for input and button */
+.register .common {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: "Roboto";
+  margin-left: 12px;
+}
+.register input {
+  width: 325px;
+  height: 15px;
+}
+.register button {
+  width: 372px;
+  background-color: black;
+  color: white;
+  height: 65px;
+}
+
+/* keyboard section */
+.keyboard {
+  margin-top: 200px;
+  background-color: rgba(208, 211, 217, 0.9);
+}
+
+/* common for all the keyboard buttons attributes */
+.keyboard button {
+  font-size: 25px;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  background-color: white;
+}
+.row_one button {
+  width: 35px;
+  height: 37px;
+  margin-left: 0.3px;
+}
+.row_two {
+  margin-left: 20px;
+}
+.row_two button {
+  width: 35px;
+  height: 37px;
+}
+.row_three button {
+  width: 35px;
+  height: 37px;
+  margin-left: 4.5px;
+}
+.row_three .btn3 {
+  width: 35px;
+  height: 37px;
+}
+.row_four .btn4 {
+  font-size: 15px;
+  width: 70px;
+  height: 40px;
+  background-color: #acb3bf;
+}
+.row_four .space {
+  width: 250px;
+  height: 40px;
+}
+
+/* keyboard footer */
+.keyboard .fas {
+  color: gray;
+  float: right;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.keyboard .far {
+  color: gray;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+hr {
+  background-color: black;
+  margin-top: 35px;
+  height: 3px;
+  width: 180px;
+  margin-left: 105px;
+}
+
+/* end footer */
