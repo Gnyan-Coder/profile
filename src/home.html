@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Authentication</title>
-    <link rel="stylesheet"type="text/css" href="home.css">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="home.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="container">
-        <div class="backgroundImage">
+      <div class="backgroundImage">
         <h1>photo</h1>
+      </div>
+      <button class="loginBtn" onclick="loginClick()">LOG IN</button>
+      <button class="registerBtn" onclick="registerClick()">REGISTER</button>
+      <hr />
     </div>
-    <button class="loginBtn" onclick="loginClick()">LOG IN</button>
-    <button class="registerBtn" onclick="registerClick()">REGISTER</button>
-    <hr>
-</div>
-<script>
-    function loginClick(){
-        document.location.href="login.html";
-    }
-    function registerClick(){
-        document.location.href="register.html";
-    }
-</script>
-</body>
+    <script>
+      function loginClick() {
+        document.location.href = 'login.html';
+      }
+      function registerClick() {
+        document.location.href = 'register.html';
+      }
+    </script>
+  </body>
 </html>
